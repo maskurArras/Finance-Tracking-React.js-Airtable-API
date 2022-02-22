@@ -70,7 +70,7 @@ const Form = ({ addData, postLoading }) => {
 
                 <div className="form-group mb-1">
                     <label className="mb-2 ">Nama {typeString} </label>
-                    <input name="name" value={name} onChange={onChange} type="text" className="form-control" placeholder={`Nama dari ${typeString} `} disabled={!type} />
+                    <input name="name" value={name} onChange={onChange} type="text" className="form-control" placeholder={`Nama ${typeString} `} disabled={!type} />
                 </div>
 
                 <div className="form-group mb-1">
